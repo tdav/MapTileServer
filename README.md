@@ -1,3 +1,6 @@
+# Fork from
+	https://github.com/apdevelop/tile-map-service-net5.git 
+
 
 # Download from OSM Map PBF
 	https://download.geofabrik.de/asia/uzbekistan.html
