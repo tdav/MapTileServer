@@ -21,7 +21,6 @@
 
         public static readonly string EPSG3857 = "EPSG:3857";
 
-
         public static string GetContentType(string tileFormat)
         {
             var mediaType = string.Empty;
