@@ -1,15 +1,8 @@
-﻿using Microsoft.Extensions.Options;
-using System.Collections.Concurrent;
+﻿using System.Collections.Concurrent;
 using TileMapService.Models;
 
 namespace TileMapService.Repositorys
 {
-    public interface ITileSource
-    {
-        Task<byte[]> GetTileAsync(int x, int y, int z);
-        MetadataItem[] ReadMetadata();
-    }
-
     public class MBTilesTileSource : ITileSource
     {
         private readonly TileSetConfiguration configuration;

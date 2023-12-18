@@ -1,6 +1,5 @@
 ﻿using Microsoft.Data.Sqlite;
 using System.Collections.Concurrent;
-using System.IO.Compression;
 using System.Runtime.CompilerServices;
 using TileMapService.Models;
 

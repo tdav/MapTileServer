@@ -13,6 +13,8 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 *.mbtiles
+*.pbf
+*.gz
 
 # Build results
 [Dd]ebug/
@@ -28,6 +30,9 @@ bld/
 [Oo]bj/
 [Ll]og/
 MapData/
+images/
+tile-cache/
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
