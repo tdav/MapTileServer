@@ -38,7 +38,8 @@ namespace Mapsui.Demo.WPF
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var styleName = (styleBox.SelectedItem as ComboBoxItem).Tag as string;
-            var mainDir = "../../../";
+            //var mainDir = "../../../";
+            var mainDir = "";
 
             var source = new VectorMbTilesSource(mainDir + @"tiles/uzbekistan-latest.mbtiles", mainDir + @"styles/" + styleName + "-style.json", mainDir + @"tile-cache/");
             MyMapControl.Map.Layers.Clear();
